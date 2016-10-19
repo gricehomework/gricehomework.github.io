@@ -1,0 +1,56 @@
+body {
+	background: url(../images/sportsbarfun.jpg);
+    background-size: cover;
+}
+
+
+h1 {
+	font-family: Helvetica;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+ul {
+	margin: -10px 640px 0px 160px;
+	list-style-type: square;
+	font-family: Helvetica;
+	font-size: 18px;
+	background-color: #57C6F6;
+	color: white;
+	text-align: left;
+}
+
+p {
+    font-family: Verdana;
+	font-size: 26px;
+	color: white;
+}
+
+#slogan {
+	font-family: Arial;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	text-align: center;
+}
+
+#hype {
+	font-family: Verdana;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+#signature {
+	font-family: "Lucida Console";
+	font-size: 20px;
+	color: white;
+	text-align: right;
+}
+
+hr {
+	width: 400px;
+}
