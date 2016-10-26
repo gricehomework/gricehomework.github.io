@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px);
+
+
+body {
+	background: url(../images/sportsbarfun.jpg);
+    background-size: cover;
+}
+
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', serif;
+	font-size: 26px;
+	color: white;
+}
+
+ul {
+	margin: -10px 620px 0px 180px;
+	list-style-type: square;
+	font-family: 'Slabo 27px';
+	font-size: 20px;
+	background-color: #57C6F6;
+	color: white;
+	text-align: left;
+}
+
+#slogan {
+	font-family: 'Open Sans', serif;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	color: white;
+	text-align: center;
+}
+
+#hype {
+	margin: 50px 270px 40px 270px;
+	font-family: 'Open Sans';
+	font-size: 28px;
+	font-weight: 600;
+	background-color: white;
+	color: red;
+	text-align: center;
+}
+
+#signature {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	color: white;
+	text-align: right;
+}
+
+hr {
+	width: 400px;
+}
