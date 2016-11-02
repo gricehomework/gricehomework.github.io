@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px);
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+body {
+	background: url(../images/sportsbarfun.jpg);
+    background-size: cover;
+}
+
+.article_image {
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	border: 10px 20px 10px 20px white solid;
+    padding: 20px;
+}
+
+.article_text {
+	width: 350px;
+	height: 230px;
+	margin: 10px 500px 10px 10px;
+}
+
+.article_title {
+	width: 350px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Open Sans';
+	font-size: 30px;
+	color: black;
+}
+
+p {
+    font-family: 'Open Sans', serif;
+	font-size: 26px;
+	color: white;
+}
+
+ul {
+	margin: -10px 620px 0px 180px;
+	list-style-type: square;
+	font-family: 'Slabo 27px';
+	font-size: 20px;
+	background-color: #57C6F6;
+	color: white;
+	text-align: left;
+}
+
+#tag_line {
+	font-family: 'Open Sans', serif;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	color: white;
+	text-align: center;
+}
+
+#hype {
+	margin: 50px 270px 40px 270px;
+	font-family: 'Open Sans';
+	font-size: 28px;
+	font-weight: 600;
+	background-color: white;
+	color: red;
+	text-align: center;
+}
+
+#signature {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	color: white;
+	text-align: right;
+}
+
+hr {
+	width: 400px;
+}
