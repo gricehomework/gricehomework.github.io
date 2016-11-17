@@ -4,26 +4,29 @@ header {
     font-size: 20px;
     background: url(../images/sportsbarfun.jpg);
     background-size: cover;
-    height: 24em;
+    height: 26em;
+    padding: .5em;
 }
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 40px;
+	font-size: 2em;
 	color: white;
 	text-align: center;
 }
 
 h2 {
 	font-family: 'Open Sans';
-	font-size: 30px;
+	font-size: 1.7em;
+	font-weight: bolder;
 	color: black;
 }
 
 p {
     font-family: 'Open Sans', serif;
-    font-size: 26px;
+    font-size: 1.5em;
 	color: white;
+	font-weight: lighter;
 }
 
 hr {
@@ -42,11 +45,11 @@ footer {
 	font-style: italic;
 	color: white;
 	text-align: center;
-	margin-top: .5em 25%;
+	margin: .5em 20%;
 }
 
 #hype {
-	font-size: 28px;
+	font-size: 1.7em;
 	font-weight: 600;
 	background-color: white;
 	color: red;
@@ -58,7 +61,7 @@ footer {
 
 #signature {
 	font-family: 'Open Sans';
-	font-size: 20px;
+	font-size: 1.3em;
 	color: white;
 	text-align: right;
 }
@@ -83,7 +86,7 @@ footer {
 }
 
 .article_text {
-	height: 9em;
+	height: 8em;
 	margin: 0;
 	width: 90%;
 	padding: 5%;
@@ -101,11 +104,12 @@ footer {
 @media only screen and (max-width: 800px) {
 
 	header {
-		height: 20em;
+		height: 15em;
+		padding-top: .25em;
 	}
 
 	h1 {
-		font-size: 32px;
+		font-size: 1.8em;
 	}
 
 	#tag_line {
@@ -118,7 +122,7 @@ footer {
 	}
 
 	.article_text {
-		height: 8em;
+		height: 7em;
 		margin: 0;
 		width: 90%;
 		padding: 5%;
@@ -129,15 +133,15 @@ footer {
 @media only screen and (max-width: 640px) {
 
 	header {
-		height: 15em;
+		height: 12em;
 	}
 
 	h1 {
-		font-size: 28px;
+		font-size: 1.6em;
 	}
 
 	h2 {
-		font-size: 26px;
+		font-size: 1.6em;
 	}
 
 	#tag_line {
@@ -145,26 +149,25 @@ footer {
 		margin: .25em 25%;
 	}
 
+	#hype {
+		font-size: 1.5em;
+	}
+
+	#signature {
+		font-size: 1.2em;
+	}
+
 	.article {
 		width: 45%;
 	}
 
 	.article_text {
-		font-size: 20px;
+		font-size: 1.3em;
 		height: 8em;
 		margin: 0;
 		width: 90%;
 		padding: 5%;
 	}
-
-	#hype {
-		font-size: 24px;
-	}
-
-	#signature {
-		font-size: 16px;
-	}
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -174,16 +177,24 @@ footer {
 	}
 
 	h1 {
-		font-size: 24px;
+		font-size: 1.3em;
 	}
 
 	h2 {
-		font-size: 22px;
+		font-size: 1.4em;
 	}
 
 	#tag_line {
 		font-size: .7em;
-		margin: .25em 22%;
+		margin: .25em 20%;
+	}
+
+	#hype {
+		font-size: 1.4em;
+	}
+
+	#signature {
+		font-size: 1.1em;
 	}
 
 	.article {
@@ -191,21 +202,12 @@ footer {
 	}
 
 	.article_text {
-		font-size: 16px;
+		font-size: 1.1em;
 		height: 9em;
 		margin: 0;
 		width: 90%;
 		padding: 5%;
 	}
-
-	#hype {
-		font-size: 21px;
-	}
-
-	#signature {
-		font-size: 14px;
-	}
-
 }
 
 @media only screen and (max-width: 360px) {
@@ -215,16 +217,24 @@ footer {
 	}
 
 	h1 {
-		font-size: 20px;
+		font-size: 1.2em;
 	}
 
 	h2 {
-		font-size: 22px;
+		font-size: 1.1em;
 	}
 
 	#tag_line {
 		font-size: .6em;
-		margin: .15em 25%;
+		margin: .15em 22%;
+	}
+
+	#hype {
+		font-size: 1.3em;
+	}
+
+	#signature {
+		font-size: .9em;
 	}
 
 	.article {
@@ -232,19 +242,10 @@ footer {
 	}
 
 	.article_text {
-		font-size: 16px;
-		height: 9em;
+		font-size: 1em;
+		height: 8em;
 		margin: 0;
 		width: 90%;
 		padding: 5%;
 	}
-
-	#hype {
-		font-size: 21px;
-	}
-
-	#signature {
-		font-size: 14px;
-	}
-
 }
